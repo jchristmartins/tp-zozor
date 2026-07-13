@@ -80,48 +80,54 @@ body{
 }
 
 /* BANNIERE */
-.banner {
-  position: relative;
-  border: 1px solid;
-  width: 90%;
-  height: 250px;
-  margin: auto;
-  background-image: url('../images/sanfrancisco.jpg');
-  background-size: cover;
-  border-radius: 7px;
+
+.banniere{
   margin-bottom: 50px;
 }
 
-.banner-bar{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 97%;
-  background-color: black;
-  padding: 10px 16px;
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
+.banniere-conteneur {
+  background-image: url('../images/sanfrancisco.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  border-radius: 12px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: end;
+  width: 90%;
+  margin: auto;
 }
 
-.banner-text{
+.strip{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px;
   color: #ffffff;
   font-size: 14px;
   font-family: Georgia, serif;
   font-style: italic;
+  background-color: black;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
 }
 
-.banner-btn{
+.vacances{
+  align-self: center;
+}
+
+.bouton{
+  display: flex;
+  gap: 5px;
   text-decoration: none;
   background-color: #8b1a1a;
   color: #ffffff;
-  font-family: 'dayrom', Georgia, sans-serif;
   font-size: 13px;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 6px 14px;
 }
+
+
 
 /* BODY-MAIN */
 .icon-titre{
