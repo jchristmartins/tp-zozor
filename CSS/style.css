@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: ballpark;
+  src: url(../polices/ballpark.woff);
+}
+
+@font-face {
+  font-family: dayrom;
+  src: url(../polices/dayrom.woff);
+}
+
+body{
+  font-family: Ballpark Weiner,sans-serif;
+  font-family: dayrom,sans-serif;
+  background-color: #F7EBCC;
+}
+
+/* header */
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: baseline;
+  margin: auto;
+  padding-bottom: 14px;
+}
+
+.header-left{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.logo-block{
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.logo-img{
+  width: 90px;
+  height: auto;
+  display: block;
+  line-height: 1;
+  padding-bottom: 4px;
+}
+
+.logo-name{
+  font-family: 'Ballpark', Georgia, serif;
+}
+
+.header-text{
+  font-family: Georgia, serif;
+  margin-top: 10px;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+  font-family: 'dayrom', Georgia, serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header-divider{
+  border: none;
+  border-top: 1px solid #5e5a4f;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+/* BANNIERE */
+.banner {
+  position: relative;
+  border: 1px solid;
+  width: 90%;
+  height: 250px;
+  margin: auto;
+  background-image: url('../images/sanfrancisco.jpg');
+  background-size: cover;
+  border-radius: 7px;
+  margin-bottom: 50px;
+}
+
+.banner-bar{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 9ègit%;
+  background-color: black;
+  padding: 10px 16px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-text{
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+
+.banner-btn{
+  text-decoration: none;
+  background-color: #8b1a1a;
+  color: #ffffff;
+  font-family: 'dayrom', Georgia, sans-serif;
+  font-size: 13px;
+  border-radius: 3px;
+  padding: 6px 14px;
+}
+
+/* BODY-MAIN */
+.icon-titre{
+  max-width: 270px;
+  height: 30px;
+}
+
+
+.description{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+
+.article{
+  width: 950px;
+}
+
+.article p{
+  font-size: 12px;
+  text-align: justify;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+p a{
+  color: #ff0000;
+}
+
+.descr{
+  display: flex;
+}
+
+.descr-text{
+  margin-top: 20px;
+}
+
+.aside{
+  width: 400px;
+  height: 360px;
+  background-color: #92908d;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.zozor-img{
+  text-align: center;
+  margin: 10px 0;
+}
+
+.zozor-text{
+  font-size: 14px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.icon-link{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-divider{
+  border: none;
+  border-top: 1px solid #5e5a4f;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.ico{
+  width: 30px;
+}
+
+.ico-btn{
+  display: flex;
+  justify-content: center;
+}
+
+/* FOOTER */
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.footer h3{
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.footer p{
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.photos img{
+  border: 3px solid;
+}
+
+.friends{
+  display: flex;
+  gap: 40px;
+}
+
+.friends ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+} 
+
+.friends li{
+  margin-bottom: 2px;
+}
+
+.friends li::before{
+  content: "\27A4";
+  color: #b04020;
+  font-size: 12px;
+  margin-right: 7px;
+}
+
+.friends a{
+  text-decoration: none;
+  color: #ff0000;
+  font-size: 14px;
+}
+
+
+
