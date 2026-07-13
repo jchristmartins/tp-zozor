@@ -209,6 +209,9 @@ p a{
 }
 
 /* FOOTER */
+.footer{
+  margin-bottom: 10px;
+}
 
 .footer-container{
   display: flex;
